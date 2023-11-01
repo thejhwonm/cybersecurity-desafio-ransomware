@@ -15,8 +15,9 @@ file = open(file_name, 'rb')
 file_data = file.read()
 file.close()
 
-print("Dados do arquivo criptografado:")
-print(file_data)
+#testa
+#print("Dados do arquivo criptografado:")
+#print(file_data)
 
 ## chave de descriptografia
 
@@ -26,8 +27,9 @@ key = generate_key(password)
 aes = pyaes.AESModeOfOperationCTR(key)
 decrypt_data = aes.decrypt(file_data)
 
-print("Dados descriptografados:")
-print(decrypt_data)
+#testa denovo
+#print("Dados descriptografados:")
+#print(decrypt_data)
 
 ## remover o arquivo criptografado
 
