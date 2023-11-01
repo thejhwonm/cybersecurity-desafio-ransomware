@@ -8,8 +8,9 @@ file = open(file_name, 'rb')
 file_data = file.read()
 file.close()
 
-print("Dados do arquivo antes da criptografia:")
-print(file_data)
+#testa
+#print("Dados do arquivo antes da criptografia:")
+#print(file_data)
 
 ## remover o arquivo original
 
